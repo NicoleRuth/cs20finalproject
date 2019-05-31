@@ -1,0 +1,123 @@
+var array=[];
+var user1=[];
+
+
+function sub(){
+  
+  if(document.getElementById("1A").checked===true){array[0]="A"}
+  if(document.getElementById("1B").checked===true){array[0]="B"}
+  if(document.getElementById("1C").checked===true){array[0]="C"}
+  if(document.getElementById("1D").checked===true){array[0]="D"}
+  if(document.getElementById("1E").checked===true){array[0]="E"}
+  if(document.getElementById("1F").checked===true){array[0]="F"}
+  if(document.getElementById("1G").checked===true){array[0]="G"}
+  if(document.getElementById("1H").checked===true){array[0]="H"}
+  if(document.getElementById("1I").checked===true){array[0]="I"}
+  if(document.getElementById("1J").checked===true){array[0]="J"}
+  if(document.getElementById("2A").checked===true){array[1]="A"}
+  if(document.getElementById("2B").checked===true){array[1]="B"}
+  if(document.getElementById("2C").checked===true){array[1]="C"}
+  if(document.getElementById("2D").checked===true){array[1]="D"}
+  if(document.getElementById("2E").checked===true){array[1]="E"}
+  if(document.getElementById("3A").checked===true){array[2]="A"}
+  if(document.getElementById("3B").checked===true){array[2]="B"}
+  if(document.getElementById("3C").checked===true){array[2]="C"}
+  if(document.getElementById("3D").checked===true){array[2]="D"}
+  if(document.getElementById("3E").checked===true){array[2]="E"}
+  if(document.getElementById("3F").checked===true){array[2]="F"}
+  if(document.getElementById("3G").checked===true){array[2]="G"}  
+  if(document.getElementById("4A").checked===true){array[3]="A"}
+  if(document.getElementById("4B").checked===true){array[3]="B"}
+  if(document.getElementById("4C").checked===true){array[3]="C"}
+  if(document.getElementById("4D").checked===true){array[3]="D"}
+  if(document.getElementById("4E").checked===true){array[3]="E"}
+  if(document.getElementById("5A").checked===true){array[4]="A"}
+  if(document.getElementById("5B").checked===true){array[4]="B"}
+  if(document.getElementById("5C").checked===true){array[4]="C"}
+  if(document.getElementById("5D").checked===true){array[4]="D"}
+  if(document.getElementById("5E").checked===true){array[4]="E"}
+  if(document.getElementById("6A").checked===true){array[5]="A"}
+  if(document.getElementById("6B").checked===true){array[5]="B"}
+  if(document.getElementById("6C").checked===true){array[5]="C"}
+  if(document.getElementById("6D").checked===true){array[5]="D"}  
+  if(document.getElementById("7A").checked===true){array[6]="A"}
+  if(document.getElementById("7B").checked===true){array[6]="B"}
+  if(document.getElementById("7C").checked===true){array[6]="C"}
+  if(document.getElementById("7D").checked===true){array[6]="D"} 
+  if(document.getElementById("7E").checked===true){array[6]="E"}
+  if(document.getElementById("7F").checked===true){array[6]="F"}
+  if(document.getElementById("7G").checked===true){array[6]="G"}
+  if(document.getElementById("7H").checked===true){array[6]="H"}
+  if(document.getElementById("7I").checked===true){array[6]="I"}
+  if(document.getElementById("8A").checked===true){array[7]="A"}
+  if(document.getElementById("8B").checked===true){array[7]="B"}
+  if(document.getElementById("8C").checked===true){array[7]="C"}
+  if(document.getElementById("8D").checked===true){array[7]="D"}
+  if(document.getElementById("8E").checked===true){array[7]="E"}
+  if(document.getElementById("8F").checked===true){array[7]="F"}
+  if(document.getElementById("8G").checked===true){array[7]="G"}
+  if(document.getElementById("8H").checked===true){array[7]="H"}
+  if(document.getElementById("8I").checked===true){array[7]="I"}
+  for(var c=0;c<8;c++){
+    document.getElementById("answer").innerHTML+=c+1+". "+array[c]+"--->"+user1[c]+"<br>";
+  }
+  user1=array;
+  array=[];
+document.getElementById("1A").checked=false;
+document.getElementById("1B").checked=false;
+document.getElementById("1C").checked=false;
+document.getElementById("1D").checked=false;
+document.getElementById("1E").checked=false;
+document.getElementById("1F").checked=false;
+document.getElementById("1G").checked=false;
+document.getElementById("1H").checked=false;
+document.getElementById("1I").checked=false;
+document.getElementById("1J").checked=false;
+document.getElementById("2A").checked=false;
+document.getElementById("2B").checked=false;
+document.getElementById("2C").checked=false;
+document.getElementById("2D").checked=false;
+document.getElementById("2E").checked=false;
+document.getElementById("3A").checked=false;
+document.getElementById("3B").checked=false;
+document.getElementById("3C").checked=false;
+document.getElementById("3D").checked=false;
+document.getElementById("3E").checked=false;
+document.getElementById("3F").checked=false;
+document.getElementById("3G").checked=false;
+document.getElementById("4A").checked=false;
+document.getElementById("4B").checked=false;
+document.getElementById("4C").checked=false;
+document.getElementById("4D").checked=false;
+document.getElementById("4E").checked=false;
+document.getElementById("5A").checked=false;
+document.getElementById("5B").checked=false;
+document.getElementById("5C").checked=false;
+document.getElementById("5D").checked=false;
+document.getElementById("5E").checked=false;
+document.getElementById("6A").checked=false;
+document.getElementById("6B").checked=false;
+document.getElementById("6C").checked=false;
+document.getElementById("6D").checked=false;
+document.getElementById("7A").checked=false;
+document.getElementById("7B").checked=false;
+document.getElementById("7C").checked=false;
+document.getElementById("7D").checked=false;
+document.getElementById("7E").checked=false;
+document.getElementById("7F").checked=false;
+document.getElementById("7G").checked=false;
+document.getElementById("7H").checked=false;
+document.getElementById("7I").checked=false;
+document.getElementById("8A").checked=false;
+document.getElementById("8B").checked=false;
+document.getElementById("8C").checked=false;
+document.getElementById("8D").checked=false;
+document.getElementById("8E").checked=false;
+document.getElementById("8F").checked=false;
+document.getElementById("8G").checked=false;
+document.getElementById("8H").checked=false;
+document.getElementById("8I").checked=false;
+}
+function c(){
+  document.getElementById("answer").innerHTML=" ";
+}
