@@ -1,0 +1,26 @@
+p{
+  border:1px solid #FFD483;
+  border-radius: 10px;
+  padding:10px;
+}
+body{
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+button{
+  background-color: #FD7204;
+  border:1px solid #FFD483;
+  border-radius: 10px;
+  height:30px;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  width:100%;
+}
+#answer{
+  background-color: #FD7204;
+  border:1px solid #FFD483;
+  border-radius: 10px;
+  padding:10px;
+  position:fixed;
+  top:50px;
+  right:50px;
+  width:300px;
+}
